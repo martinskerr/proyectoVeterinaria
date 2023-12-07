@@ -18,7 +18,7 @@ def listaPacientes(request):
     }
     return render(request, 'mascotas.html', data)
 
-
+            
 
 def crearPaciente(request):
     form = PacienteForm()
